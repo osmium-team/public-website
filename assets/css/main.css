@@ -2371,7 +2371,7 @@ input, select, textarea {
 		background: #333 url(../../images/hi-viz-banner.png) no-repeat center;
 		background-size: cover;
 		text-align: center;
-		color: #fff;
+		color: #000000;
 	}
 
 		#banner:after {
@@ -2433,7 +2433,7 @@ input, select, textarea {
 		}
 
 		#main .pennant, #main .icon {
-			border-color: #050505;
+			border-color: #fefdfd;
 		}
 
 		#main .actions {

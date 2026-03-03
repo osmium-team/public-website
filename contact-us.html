@@ -52,22 +52,23 @@
 										</header>
                                         <!-- Contact -->
 						
-                                        <form method="post" action="#" name="contact" netlify>
-                                            <div class="row gtr-50 gtr-uniform">
-                                                <div class="col-6 col-12-narrower">
-                                                    <input name="name" placeholder="Name" type="text" class="text" />
-                                                </div>
-                                                <div class="col-6 col-12-narrower">
-                                                    <input name="email" placeholder="Email" type="text" class="text" />
-                                                </div>
-                                                <div class="col-12">
-                                                    <textarea name="message" placeholder="Message"></textarea>
-                                                </div>
-                                                <div class="col-12">
-                                                    <a href="#" class="button alt">Send Message</a>
-                                                </div>
-                                            </div>
-                                        </form>
+                                        <form method="post" name="contact" data-netlify="true">
+											<input type="hidden" name="form-name" value="contact" />
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-6 col-12-narrower">
+													<input name="name" placeholder="Name" type="text" class="text" />
+												</div>
+												<div class="col-6 col-12-narrower">
+													<input name="email" placeholder="Email" type="text" class="text" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" placeholder="Message"></textarea>
+												</div>
+												<div class="col-12">
+													<button type="submit" class="button alt">Send Message</button>
+												</div>
+											</div>
+										</form>
 				
 									</article>
 								</div>
